@@ -349,18 +349,7 @@
     </footer>
 
     <script>
-        // Función para alternar el menú móvil
-        function toggleMenu() {
-            const menu = document.getElementById('mobile-menu');
-            menu.classList.toggle('hidden');
-        }
-        
-        // Cerrar menú móvil al hacer clic en un enlace
-        document.querySelectorAll('#mobile-menu a').forEach(link => {
-            link.addEventListener('click', () => {
-                document.getElementById('mobile-menu').classList.add('hidden');
-            });
-        });
+
         
         // Smooth scroll para enlaces de navegación
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
